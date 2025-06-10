@@ -1,4 +1,4 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
@@ -42,9 +42,29 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
   </head>
   <body>
-    <div class="elfsight-app-043bc89e-a896-420c-9373-ade951fc5f63" data-elfsight-app-lazy></div>
+    <div
+      class="elfsight-app-043bc89e-a896-420c-9373-ade951fc5f63"
+      data-elfsight-app-lazy
+    ></div>
     <div id="root"></div>
     <script type="module" src="/src/main.jsx"></script>
-    <script src="https://static.elfsight.com/platform/platform.js" async></script>
+    <script
+      async
+      src="https://www.googletagmanager.com/gtag/js?id=AW-17178493997"
+    ></script>
+    <script
+      src="https://static.elfsight.com/platform/platform.js"
+      async
+    ></script>
+
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag() {
+        dataLayer.push(arguments);
+      }
+      gtag("js", new Date());
+
+      gtag("config", "AW-17178493997");
+    </script>
   </body>
 </html>
